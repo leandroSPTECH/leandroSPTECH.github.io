@@ -1,17 +1,13 @@
-# Landing Starter — Leandro
-Site estático simples para publicar no **GitHub Pages**.
+# Leandro — Sites & Automações
 
-## Como publicar no GitHub Pages
-1. Crie um repositório `seuusuario.github.io` no GitHub.
-2. Faça upload destes arquivos (`index.html`, `style.css`, `favicon.svg`).
-3. Vá em **Settings → Pages** e confirme que a **branch `main`** está selecionada.
-4. Aguarde ~1–2 minutos. O site ficará no endereço `https://seuusuario.github.io`.
+Portfólio online: **https://leandrosptech.github.io**
 
-## O que editar
-- No `index.html`, troque o número do WhatsApp (padrão `5511999999999`) e o e-mail.
-- Ajuste os preços dos pacotes conforme seus valores atuais.
-- Personalize o texto da hero e do portfolio.
+Crio **landing pages em WordPress**, **automações** (form → Google Sheets → e-mail/WhatsApp) e **dashboards** no Looker Studio.
 
-## Próximos passos
-- Migrar esta landing para WordPress quando quiser oferecer blog e atualizações fáceis.
-"# leandro.github.io" 
+## Serviços
+- **Landing Rápida** — 1 página, formulário + WhatsApp (3 dias úteis)
+- **Site Pro (3 páginas)** — Home, Sobre, Contato
+- **LPA** — Landing + Pipeline + Automação (Zapier/Make)
+- **Dashboard mensal** — Looker Studio + Google Sheets
+
+**Contato:** [WhatsApp](https://wa.me/5511998825520) • leandro.takahashi00@gmail.com
