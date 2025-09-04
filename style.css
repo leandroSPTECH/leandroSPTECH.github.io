@@ -1,0 +1,112 @@
+/* === style.css — Tema Preto & Dourado (cole no arquivo existente) === */
+:root{
+  --bg:#0b0b0f;
+  --bg-2:#111114;
+  --card:#141418;
+  --text:#f7f7f5;
+  --muted:#b3b3bd;
+  --line:#1f1f26;
+  --gold:#e9c44b;
+  --gold-2:#d1a734;
+  --gold-glow:0 0 0 2px rgba(212,175,55,.25), 0 10px 20px rgba(0,0,0,.35);
+}
+
+/* Base */
+*{box-sizing:border-box}
+html,body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--text);background:var(--bg)}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.container{max-width:1000px;margin:0 auto;padding:20px}
+
+/* Header */
+.header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 20px;background:rgba(13,13,17,.8);
+  border-bottom:1px solid rgba(212,175,55,.25);
+  position:sticky;top:0;z-index:10;backdrop-filter:saturate(110%) blur(6px);
+}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{
+  width:28px;height:28px;border-radius:8px;
+  background:linear-gradient(135deg,var(--gold),var(--gold-2));
+  color:#0b0b0f;display:grid;place-items:center;font-weight:800
+}
+.header a{color:var(--text);opacity:.9;margin-left:16px;transition:opacity .2s ease,color .2s ease}
+.header a:hover{color:var(--gold);opacity:1}
+.header .btn{padding:8px 12px;border:1px solid var(--gold);border-radius:10px}
+
+/* Hero */
+.hero{padding:64px 20px;text-align:left;background:linear-gradient(180deg, rgba(212,175,55,.06), rgba(0,0,0,0) 40%)}
+.hero h1{font-size:40px;line-height:1.15;margin:0 0 14px}
+.highlight{
+  background:linear-gradient(90deg, rgba(212,175,55,.3), rgba(184,146,42,.3));
+  padding:0 6px;border-radius:6px
+}
+.hero p{font-size:18px;max-width:680px;color:var(--muted)}
+.cta{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}
+
+/* Botões */
+.btn{
+  display:inline-block;padding:12px 16px;border-radius:12px;
+  background:linear-gradient(135deg,var(--gold),var(--gold-2));
+  color:#0b0b0f;border:none;box-shadow:var(--gold-glow);
+  transition:transform .12s ease, box-shadow .2s ease, opacity .2s ease
+}
+.btn:hover{transform:translateY(-1px)}
+.btn:active{transform:translateY(0)}
+.btn.ghost{
+  background:transparent;color:var(--gold);
+  border:1px solid var(--gold);
+  box-shadow:none
+}
+.btn.ghost:hover{background:rgba(212,175,55,.08)}
+
+/* Acessibilidade */
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:10px}
+
+/* Cards / Serviços */
+.cards{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:18px;padding:20px
+}
+.card{
+  background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,0));
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:16px;padding:18px;
+  box-shadow:0 2px 10px rgba(0,0,0,.25)
+}
+.card h3{margin:0 0 6px;color:var(--gold)}
+.card p,.card li{color:var(--muted)}
+.card ul{padding-left:18px;margin:10px 0 0}
+.card li{margin:4px 0}
+
+/* Portfolio */
+.portfolio h2,.contato h2{margin-top:0;color:var(--gold)}
+.portfolio .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.tile{
+  background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,0));
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:16px;padding:16px;transition:border-color .2s ease, transform .12s ease
+}
+.tile:hover{border-color:rgba(212,175,55,.35);transform:translateY(-1px)}
+.thumb{
+  width:100%;height:120px;border-radius:12px;
+  background:radial-gradient(120px 60px at 30% 30%, rgba(212,175,55,.18), transparent 60%), #0f0f14;
+  border:1px solid rgba(212,175,55,.25);
+  display:grid;place-items:center;font-weight:800;font-size:24px;color:var(--gold)
+}
+
+/* Contato */
+.contato .mini{color:var(--muted)}
+a[href^="mailto:"], .contato a{transition:color .2s ease}
+.contato a:hover{color:var(--gold)}
+
+/* Footer */
+.footer{
+  font-size:14px;color:#9ca3af;border-top:1px solid rgba(212,175,55,.2);margin-top:40px
+}
+
+/* Responsivo */
+@media (max-width:600px){
+  .hero h1{font-size:32px}
+}

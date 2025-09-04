@@ -1,0 +1,20 @@
+PROPOSTAS MODELO (copiar/colar)
+
+1) Landing para salão de beleza
+Oi, [NOME]! Posso entregar uma landing em WordPress para agendar horários com:
+• 1 página + botão WhatsApp + formulário + SEO básico
+• Prazo: 3 dias úteis (início imediato)
+• Valor: R$ 700 (30% na entrada via plataforma)
+Preciso de: logo, serviços e endereço/WhatsApp. Fecho por aqui?
+
+2) Automação (form → planilha → e-mail)
+Oi, [NOME]! Eu crio um fluxo: formulário (Google Forms) → Google Sheets → e-mail automático e aviso no WhatsApp.
+• Prazo: 3 dias úteis
+• Valor: R$ 600
+Entrega com vídeo de uso e mini tutorial. Faço uma call de 10 min pra alinhar?
+
+3) Dashboard de vendas/marketing
+Oi, [NOME]! Posso montar um painel (Looker Studio) conectado ao Google Sheets com métricas semanais.
+• Prazo: 5 dias úteis
+• Valor: R$ 900 + manutenção opcional R$ 250/mês
+Envio um exemplo e adaptamos ao seu negócio. Te interessa?

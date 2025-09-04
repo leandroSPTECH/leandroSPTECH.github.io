@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beatriz — Sites Rápidos & Automações</title>
+  <meta name="description" content="Landing pages WordPress, automações com Google Sheets e dashboards no Looker Studio.">
+  <meta property="og:title" content="Beatriz — Sites & Automações">
+  <meta property="og:description" content="Landing pages WordPress, automações e dashboards para pequenos negócios.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container header">
+    <div class="brand">
+      <span class="logo">L</span>
+      <strong>Leandro</strong>
+    </div>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contato" class="btn">Falar no WhatsApp</a>
+    </nav>
+  </header>
+
+  <section class="hero container">
+    <h1>Sites rápidos & automações para <span class="highlight">gerar leads</span></h1>
+    <p>Eu crio <strong>landing pages em WordPress</strong>, conecto <strong>formulários ao Google Sheets</strong> e automatizo <strong>e-mails/WhatsApp</strong> — entregas simples que trazem resultado.</p>
+    <div class="cta">
+      <a class="btn" href="https://wa.me/5511998825520" target="_blank" rel="noopener">Quero um orçamento</a>
+      <a class="btn ghost" href="#servicos">Ver serviços</a>
+    </div>
+    
+  </section>
+
+  <section id="servicos" class="container cards">
+    <article class="card">
+      <h3>Landing Rápida</h3>
+      <p>1 página com formulário + botão WhatsApp + SEO básico.</p>
+      <ul>
+        <li>Prazo: 3 dias úteis</li>
+        <li>Preço: R$ 600–900</li>
+      </ul>
+    </article>
+    <article class="card">
+      <h3>Site Pro (3 páginas)</h3>
+      <p>Home, Sobre, Contato em tema gratuito com ajustes de CSS.</p>
+      <ul>
+        <li>Prazo: 7 dias úteis</li>
+        <li>Preço: R$ 1.200–1.800</li>
+      </ul>
+    </article>
+    <article class="card">
+      <h3>LPA: Landing + Pipeline + Automação</h3>
+      <p>Landing em WP + fluxo form → Sheets → e-mail/WhatsApp + tutorial.</p>
+      <ul>
+        <li>Prazo: 7–10 dias úteis</li>
+        <li>Preço: R$ 1.500–2.000</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="portfolio" class="container portfolio">
+    <h2>Portfolio</h2>
+    <div class="grid">
+      <div class="tile">
+        <div class="thumb">LP</div>
+        <h4>Landing “Sobre mim”</h4>
+        <p>Uma página simples publicada no GitHub Pages.</p>
+      </div>
+      <div class="tile">
+        <div class="thumb">WP</div>
+        <h4>Site 3 páginas (demo)</h4>
+        <p>WordPress com tema gratuito e formulário.</p>
+      </div>
+      <div class="tile">
+        <div class="thumb">⚙️</div>
+        <h4>Automação de leads</h4>
+        <p>Formulário conectado à planilha com aviso por e-mail.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="container contato">
+    <h2>Contato</h2>
+    <p>Me chame no WhatsApp com a sua necessidade e um link do seu Instagram/site.</p>
+    <a class="btn" href="https://wa.me/5511998825520" target="_blank" rel="noopener">Abrir WhatsApp</a>
+    <p class="mini">Ou envie um e-mail para: <a href="mailto:leandro.takahashi00@gmail.com">leandro.takahashi00@gmail.com</a></p>
+  </section>
+
+  <footer class="container footer">
+    <p>© Leandro — 2025. Pequenos negócios primeiro, resultados sempre.</p>
+  </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const id = a.getAttribute('href');
+        const el = document.querySelector(id);
+        if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth'}); }
+      });
+    });
+  </script>
+</body>
+</html>
