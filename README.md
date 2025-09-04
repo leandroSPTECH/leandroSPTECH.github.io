@@ -11,8 +11,9 @@ Crio **landing pages em WordPress**, **automações** (form → Google Sheets �
 - **Dashboard mensal** — Looker Studio + Google Sheets
 
 **Contato:** [WhatsApp](https://wa.me/5511998825520) • leandro.takahashi00@gmail.com
-<p>
-  <img src="assets/thumb-desktop.png" alt="Landing do Leandro — desktop" width="900">
-  <img src="assets/thumb-mobile.png"  alt="Landing do Leandro — mobile"  width="260">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leandroSPTECH/leandroSPTECH.github.io/main/assets/thumb-desktop.png" width="900" alt="Landing do Leandro — desktop">
+  <img src="https://raw.githubusercontent.com/leandroSPTECH/leandroSPTECH.github.io/main/assets/thumb-mobile.png"  width="260" alt="Landing do Leandro — mobile">
 </p>
+
 
