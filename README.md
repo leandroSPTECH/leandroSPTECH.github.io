@@ -1,4 +1,4 @@
-# Landing Starter — Beatriz
+# Landing Starter — Leandro
 Site estático simples para publicar no **GitHub Pages**.
 
 ## Como publicar no GitHub Pages
